@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎧 PodcastZone - Découvrez l'audio autrement</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #3f87a6, #ebf8e1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+      max-width: 500px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .contact-button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      background-color: #3f87a6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .contact-button:hover {
+      background-color: #346f87;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Bienvenue sur PodcastZone</h1>
+    <p>Vous êtes curieux d’en savoir plus ?<br>Contactez-nous dès maintenant.</p>
+    <a href="mailto:contact@podcastzone.com?subject=Je%20souhaite%20en%20savoir%20plus%20sur%20votre%20plateforme" class="contact-button">
+      ✉️ Nous contacter
+    </a>
+  </div>
+</body>
+</html>
